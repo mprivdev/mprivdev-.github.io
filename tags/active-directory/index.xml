@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Active Directory on Robin Granberg - Managed Privileges</title>
+    <link>https://mprivdev.github.io/tags/active-directory/</link>
+    <description>Recent content in Active Directory on Robin Granberg - Managed Privileges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jun 2020 15:58:12 +0600</lastBuildDate>
+    <atom:link href="https://mprivdev.github.io/tags/active-directory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding Highly Privileged Accounts in ACL&#39;s - Part 2 - GROUP POLICY</title>
+      <link>https://mprivdev.github.io/blog/finding-highly-privileged-accounts-in-acls---part-2/</link>
+      <pubDate>Wed, 10 Jun 2020 15:58:12 +0600</pubDate>
+      <guid>https://mprivdev.github.io/blog/finding-highly-privileged-accounts-in-acls---part-2/</guid>
+      <description>In the previous post Part 1 I introduced a way to detect a malicious actor account in the access control list of the domain root.</description>
+    </item>
+    <item>
+      <title>Finding Highly Privileged Accounts in ACL&#39;s - Part 1</title>
+      <link>https://mprivdev.github.io/blog/finding-highly-privileged-accounts-in-acls---part-1/</link>
+      <pubDate>Mon, 27 Apr 2020 10:47:55 +0600</pubDate>
+      <guid>https://mprivdev.github.io/blog/finding-highly-privileged-accounts-in-acls---part-1/</guid>
+      <description>When trying to identify the highly privileged accounts in an Active Directory you might start with the members of the built-in administrative groups like Domain Admin etc.</description>
+    </item>
+    <item>
+      <title>Do You Allow Blank Passwords In Your Environment</title>
+      <link>https://mprivdev.github.io/blog/do-you-allow-blank-passwords-in-your-environment/</link>
+      <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
+      <guid>https://mprivdev.github.io/blog/do-you-allow-blank-passwords-in-your-environment/</guid>
+      <description>&lt;p&gt;This is a repost of my previous post at: &lt;a href=&#34;https://docs.microsoft.com/en-us/archive/blogs/pfesweplat/do-you-allow-blank-passwords-in-your-domain&#34;&gt;https://docs.microsoft.com/en-us/archive/blogs/pfesweplat/do-you-allow-blank-passwords-in-your-domain&lt;/a&gt;. My blog posts at Microsoft was temporarly deleted so just in case I re-post this one here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

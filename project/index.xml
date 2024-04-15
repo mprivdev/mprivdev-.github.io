@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Robin Granberg - Managed Privileges</title>
+    <link>https://mprivdev.github.io/project/</link>
+    <description>Recent content in Projects on Robin Granberg - Managed Privileges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Feb 2019 10:47:55 +0600</lastBuildDate>
+    <atom:link href="https://mprivdev.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AD ACL Scanner</title>
+      <link>https://mprivdev.github.io/project/ad-acl-scanner/</link>
+      <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
+      <guid>https://mprivdev.github.io/project/ad-acl-scanner/</guid>
+      <description>AD ACL Scanner Current version Version: 6.0&#xA;9 February, 2020</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>AD ACL Scanner</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  
+  <meta name="author" content="robin granberg">
+  <meta name="generator" content="Hugo 0.124.1">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://mprivdev.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://mprivdev.github.io/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="https://mprivdev.github.io/plugins/fontawesome/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="https://mprivdev.github.io/plugins/animate/animate.css">
+  
+  <link rel="stylesheet" href="https://mprivdev.github.io/plugins/venobox/venobox.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://mprivdev.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://mprivdev.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://mprivdev.github.io/images/favicon.png " type="image/x-icon">
+
+  <meta name="twitter:card" content="AD ACL Scanner">
+  <meta name="twitter:site" content="managedpriv.com" >
+  
+  <meta property="og:url" content="https://mprivdev.github.io/project/ad-acl-scanner/" />
+  <meta property="og:title" content="AD ACL Scanner" />
+  <meta property="og:description" content="this is meta description" />
+  <meta property="og:image" content="https://mprivdev.github.io/images/project/adaclscanner_project.webp" />
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- header -->
+<header>
+  
+  <!-- top header -->
+  <div class="top-header bg-secondary pt-2 pb-1">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- social icons -->
+        <div class="col-lg-6 col-md-6 text-center text-md-left">
+          <span class="text-white">Connect With Me:</span>
+          <ul class="list-inline d-inline-block">
+            
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="https://twitter.com/ipcdollar1"><i class="fa fa-twitter"></i></a></li>
+            
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="https://github.com/canix1"><i class="fa fa-github"></i></a></li>
+            
+            <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="https://www.linkedin.com/in/robin-granberg"><i class="fa fa-linkedin"></i></a></li>
+            
+          </ul>
+        </div>
+        <!-- mail and phone -->
+        <div class="col-lg-6 col-md-6 text-md-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item mx-0 border-right border-secondary"><a class="text-white d-inline-block px-lg-3 px-2" href="mailto:robin.granberg@protonmail.com">robin.granberg@protonmail.com</a></li>
+            <li class="list-inline-item mx-0"><a class="text-white d-inline-block px-lg-3 px-2" href="tel:">(-: <span class="text-primary"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /top header -->
+  
+
+  <!-- navigation -->
+  <div class="navigation bg-white position-relative">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="/"><img class="img-fluid pb-lg-3" src="https://mprivdev.github.io/images/logo.png" alt="Robin Granberg - Managed Privileges"></a>
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/project">Projects</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            
+            
+          </ul>
+
+          
+          
+
+          
+          <!-- search -->
+          <div class="search px-4">
+            <button id="searchOpen" class="search-btn"><i class="fa fa-search text-dark"></i></button>
+            <div class="search-wrapper">
+              <form action="/search">
+                <input class="search-box form-control" id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
+              </form>
+              <button id="searchClose" class="search-close"><i class="fa fa-close text-dark"></i></button>
+            </div>
+          </div>
+          
+          
+          <!-- get start btn -->
+          <a href="https://mprivdev.github.io/project" class="btn btn-primary hover-ripple">projects</a>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- /navigation -->
+</header>
+<!-- /header -->
+
+  <!-- page title -->
+<section class="section bg-cover overlay" style="background-image: url('https://mprivdev.github.io/images/backgrounds/page-title.webp'),url('https://mprivdev.github.io/images/backgrounds/page-title.jpg'),url('https://mprivdev.github.io/images/backgrounds/page-title.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-white mb-3">AD ACL Scanner</h2>
+        <!-- breadcrumb -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent p-0">
+            <li class="breadcrumb-item font-weight-semebold"><a class="text-white" href="/">Home</a></li>
+            <li class="breadcrumb-item font-weight-semebold active text-primary" aria-current="page">AD ACL Scanner</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+  <!-- project details -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <!-- project image -->
+          <img class="img-fluid w-100 mb-5" src="https://mprivdev.github.io/images/project/adaclscanner_project.webp"  onerror="this.src='https:\/\/mprivdev.github.io\/images\/project\/adaclscanner_project.jpg'" alt="project image">
+          <div class="row no-gutters bg-secondary p-sm-5 p-4 mb-5">
+            <div class="col-md-3 col-6 mb-4 mb-md-0">
+              <div class="border-md-right border-muted ml-4">
+                <h5 class="text-white text-uppercase">client</h5>
+                <span class="text-light">n/a</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4 mb-md-0">
+              <div class="border-md-right border-muted ml-4">
+                <h5 class="text-white text-uppercase">Category</h5>
+                <span class="text-light">Security</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4 mb-md-0">
+              <div class="border-md-right border-muted ml-4">
+                <h5 class="text-white text-uppercase">date</h5>
+                <span class="text-light">07 Feb 2019</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4 mb-md-0">
+              <div class="ml-4">
+                <h5 class="text-white text-uppercase">status</h5>
+                <span class="text-light">In Process</span>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <h1 id="ad-acl-scanner">AD ACL Scanner</h1>
+<h2 id="current-version">Current version</h2>
+<p><strong>Version: 6.0</strong></p>
+<p><strong>9 February, 2020</strong></p>
+<p><strong>SHA256:</strong> E50D408747E98CE7575A845DE82234A23A08632D45DEC1AF8FC2BAADF94EE92C</p>
+<p><em>New Feature</em></p>
+<ul>
+<li>New improved UI</li>
+<li>More functions available from the command line</li>
+<li>Scan GPO permissions</li>
+<li>Filter permissions on criticality [Critical, Warning, Medium, Low, Info]</li>
+<li>Filter on Default Permissions</li>
+<li>Filter on Built-in Security Principals</li>
+<li>Recursive find group members, will list all resulting security principals in the ACL</li>
+<li>Recursive find filter, filter recursive results [*, User, Group, Computer]</li>
+</ul>
+<h2 id="download">Download</h2>
+<p><strong><a href="https://github.com/canix1/ADACLScanner/releases/tag/6.0">Release</a></strong></p>
+<h2 id="donate">Donate</h2>
+<p>Do you appreciate my work and want to buy me a beer? You can donate via PayPal: <a href="https://www.paypal.me/canix1">https://www.paypal.me/canix1</a> or send Bitcoins to <!-- raw HTML omitted -->bc1qte7vlwhvrju7msv9hzfytwy7jd9vlmnjfpm0366d62yx4ke89czsavk0hr<!-- raw HTML omitted --></p>
+<p><img src="https://github.com/canix1/ADACLScanner/blob/master/src/DonateBitCoin.png"></p>
+<h2 id="description">Description</h2>
+<ul>
+<li>A tool completly written in PowerShell.</li>
+<li>A tool with GUI used to create reports of access control lists (DACLs) and system access control lists (SACLs) in Active Directory .</li>
+</ul>
+<p>Related blog posts</p>
+<ul>
+<li><a href="https://blogs.technet.microsoft.com/pfesweplat/2017/01/28/forensics-active-directory-acl-investigation">Forensics - Active Directory ACL Investigation</a></li>
+<li><a href="https://blogs.technet.microsoft.com/pfesweplat/2013/05/13/take-control-over-ad-permissions-and-the-ad-acl-scanner-tool">Take Control Over AD Permissions And The AD ACL Scanner Tool</a></li>
+</ul>
+<h2 id="history">History</h2>
+<p>Features and fixes <a href="https://github.com/canix1/ADACLScanner/wiki/History">https://github.com/canix1/ADACLScanner/wiki/History</a></p>
+<h4 id="16-may2019">16 May,2019</h4>
+<ul>
+<li>Fixing problem with effective rights.</li>
+</ul>
+<h2 id="new-features">New Features</h2>
+<ul>
+<li>
+<p>Run effective rights report from the command line.</p>
+</li>
+<li>
+<p>parameter from command line to get modified date of security descriptor in report.
+<img src="https://github.com/canix1/ADACLScanner/blob/master/src/effectiverights.gif"></p>
+</li>
+<li>
+<p>Save to excel file without excel installed. Both from UI and command line. Requires ImportExcel PowerShell Module. You can install ImportExcel directly from the Powershell Gallery.
+<img src="https://github.com/canix1/ADACLScanner/blob/master/src/SaveToExcel.jpg"></p>
+</li>
+<li>
+<p>Command line support.
+<img src="https://github.com/canix1/ADACLScanner/blob/master/src/adaclscan_commandline.gif"></p>
+</li>
+<li>
+<p>Custom search filter for scanning objects.</p>
+</li>
+<li>
+<p>Support input from pipeline. You can call ADACLScan.ps1 by sending a distinguishedName via pipeline.</p>
+</li>
+<li>
+<p>Added formated synopsis to the script.</p>
+</li>
+</ul>
+<p><img src="https://github.com/canix1/ADACLScanner/blob/master/src/ADACLScan6.0.png"></p>
+<h2 id="feature-list">Feature list</h2>
+<ul>
+<li>Scan linked Group Policy Objects</li>
+<li>View HTML reports of DACLs/SACLs and save it to disk.</li>
+<li>Export DACLs/SACLs on Active Directory objects in a CSV format.</li>
+<li>Export DACLs/SACLs on Active Directory objects in a Excel sheet.</li>
+<li>Connect and browse you default domain, schema , configuration or a naming context defined by distinguishedname.</li>
+<li>Browse naming context by clicking you way around, either by OU�s or all types of objects.</li>
+<li>Report only explicitly assigned DACLs/SACLs.</li>
+<li>Report on OUs , OUs and Container Objects or all object types.</li>
+<li>Filter DACLs/SACLs for a specific access type.. Where does �Deny� permission exists?</li>
+<li>Filter DACLs/SACLs for a specific identity. Where does &ldquo;Domain\Client Admins&rdquo; have explicit access? Or use wildcards like &ldquo;jdoe&rdquo;.</li>
+<li>Filter DACLs/SACLs for permission on specific object. Where are permissions set on computer objects?</li>
+<li>Skip default permissions (defaultSecurityDescriptor) in report. Makes it easier to find custom permissions.</li>
+<li>Report owner of object.</li>
+<li>Compare previous results with the current configuration and see the differences by color scheme (Green=matching permissions, Yellow= new permissions, Red= missing permissions).</li>
+<li>Report when permissions were modified</li>
+<li>Can use AD replication metadata when comparing.</li>
+<li>Can convert a previously created CSV file to a HTML report.</li>
+<li>Effective rights, select a security principal and match it agains the permissions in AD.</li>
+<li>Color coded permissions based on criticality when using effective rights scan.</li>
+<li>List you domains and select one from the list.</li>
+<li>Get the size of the security descriptor (bytes).</li>
+<li>Rerporting on disabled inheritance .</li>
+<li>Get all inherited permissions in report.</li>
+<li>HTLM reports contain headers.</li>
+<li>Summary of criticality for all report types.</li>
+<li>Refresh Nodes by right-click container object.</li>
+<li>Exclude of objects from report by matching string to distinguishedName</li>
+<li>You can take a CSV file from one domain and use it for another. With replacing the old DN with the current domains you can resuse reports between domains. You can also replace the (Short domain name)Netbios name security principals.</li>
+<li>Reporting on modified default security descriptors in Schema.</li>
+<li>Verifying the format of the CSV files used in convert and compare functions.</li>
+<li>When compairing with CSV file Nodes missing in AD will be reported as &ldquo;Node does not exist in AD&rdquo;</li>
+<li>The progress bar can be disabled to gain speed in creating reports.</li>
+<li>If the fist node in the CSV file used for compairing can&rsquo;t be connected the scan will stop.</li>
+<li>Display group members in groups in the HTLM report.</li>
+<li>Present the value of the true SDDL in NTsecurityDescriptor, bypassing Object-Specific ACE merge done when a new instance of the ObjectSecurity class is initialized.</li>
+</ul>
+<h2 id="system-requirements">System requirements</h2>
+<ul>
+<li>Powershell 3.0 or above</li>
+<li>PowerShell using a single-threaded apartment</li>
+<li>Some functions requires Microsoft .NET Framework version 4.0</li>
+</ul>
+
+          </div>
+        </div>
+        <!-- sidebar -->
+        <aside class="col-lg-4">
+          
+<!-- quick contact -->
+<div class="bg-white px-4 py-5 box-shadow mb-5 sticky-top">
+  <h4 class="mb-4">Quick Contact</h4>
+  <form action="#" method="POST">
+    <input type="text" name="name" id="name" class="form-control form-control-sm border-0 rounded-0 box-shadow mb-3"
+      placeholder="Name">
+    <input type="email" name="mail" id="mail" class="form-control form-control-sm border-0 rounded-0 box-shadow mb-3"
+      placeholder="Email">
+    <input type="text" name="phone" id="phone" class="form-control form-control-sm border-0 rounded-0 box-shadow mb-3"
+      placeholder="Phone">
+    <input type="text" name="subject" id="subject" class="form-control form-control-sm border-0 rounded-0 box-shadow mb-3"
+      placeholder="Subject">
+    <textarea name="message" id="message" class="form-control form-control-sm border-0 rounded-0 box-shadow mb-3 py-3 px-4"
+      placeholder="Your Message"></textarea>
+    <button type="submit" value="send" class="btn btn-primary">send message</button>
+  </form>
+</div>
+
+        </aside>
+      </div>
+    </div>
+  </section>
+  <!-- /project details -->
+
+
+<footer>
+  
+  <div class="section bg-secondary">
+    <div class="container">
+      <div class="row justify-content-between">
+        
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          
+          <a class="mb-4 d-inline-block" href="/"><img class="img-fluid"
+              src="https://mprivdev.github.io/images/logo-alt.png" alt="Robin Granberg - Managed Privileges"></a>
+          <p class="text-light mb-5"></p>
+          <h4 class="text-white mb-4">FOLLOW ME ON</h4>
+          
+          <ul class="list-inline social-icon-alt">
+            
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="https://twitter.com/ipcdollar1"><i class="fa fa-twitter"></i></a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="https://github.com/canix1"><i class="fa fa-github"></i></a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a class="hover-ripple" href="https://www.linkedin.com/in/robin-granberg"><i class="fa fa-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            
+            <div class="col-6 mb-5">
+              <h4 class="text-white mb-4">MANAGEDPRIV.COM</h4>
+              <ul class="list-styled">
+                
+              </ul>
+            </div>
+            
+            <div class="col-6 mb-5">
+              <h4 class="text-white mb-4">Contact Info</h4>
+              <ul class="list-unstyled">
+                <li class="text-light mb-3"></li>
+                <li class="text-light mb-3">robin.granberg@protonmail.com</li>
+                <li class="text-light mb-3"></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bg-secondary-darken py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+          <p class="mb-0 text-white"></p>
+        </div>
+        <div class="col-md-6 text-center text-md-right">
+          <ul class="list-inline">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+  var indexURL = "https://mprivdev.github.io/index.json"
+</script>
+
+
+<!-- Google Map API -->
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://mprivdev.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://mprivdev.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://mprivdev.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://mprivdev.github.io/plugins/google-map/gmap.js"></script>
+
+<script src="https://mprivdev.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://mprivdev.github.io/plugins/filterizr/jquery.filterizr.min.js"></script>
+
+<script src="https://mprivdev.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://mprivdev.github.io/plugins/search/mark.js"></script>
+
+<script src="https://mprivdev.github.io/plugins/search/search.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://mprivdev.github.io/js/script.min.js"></script>
+
+<!-- google analitycs -->
+</body>
+
+</html>

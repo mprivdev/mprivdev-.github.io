@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Robin Granberg - Managed Privileges</title>
+    <link>https://mprivdev.github.io/tags/</link>
+    <description>Recent content in Tags on Robin Granberg - Managed Privileges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Apr 2024 12:45:32 +0600</lastBuildDate>
+    <atom:link href="https://mprivdev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API</title>
+      <link>https://mprivdev.github.io/tags/api/</link>
+      <pubDate>Sat, 13 Apr 2024 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entra ID</title>
+      <link>https://mprivdev.github.io/tags/entra-id/</link>
+      <pubDate>Sat, 13 Apr 2024 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/entra-id/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AD</title>
+      <link>https://mprivdev.github.io/tags/ad/</link>
+      <pubDate>Sat, 01 Oct 2022 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/ad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forest</title>
+      <link>https://mprivdev.github.io/tags/forest/</link>
+      <pubDate>Sat, 01 Oct 2022 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/forest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trust</title>
+      <link>https://mprivdev.github.io/tags/trust/</link>
+      <pubDate>Sat, 01 Oct 2022 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/trust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trust Account</title>
+      <link>https://mprivdev.github.io/tags/trust-account/</link>
+      <pubDate>Sat, 01 Oct 2022 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/trust-account/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure AD</title>
+      <link>https://mprivdev.github.io/tags/azure-ad/</link>
+      <pubDate>Fri, 12 Feb 2021 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/azure-ad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PIM</title>
+      <link>https://mprivdev.github.io/tags/pim/</link>
+      <pubDate>Fri, 12 Feb 2021 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/pim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privilege Access</title>
+      <link>https://mprivdev.github.io/tags/privilege-access/</link>
+      <pubDate>Fri, 12 Feb 2021 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/privilege-access/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ACL</title>
+      <link>https://mprivdev.github.io/tags/acl/</link>
+      <pubDate>Wed, 10 Jun 2020 15:58:12 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/acl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Active Directory</title>
+      <link>https://mprivdev.github.io/tags/active-directory/</link>
+      <pubDate>Wed, 10 Jun 2020 15:58:12 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/active-directory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Assessment</title>
+      <link>https://mprivdev.github.io/tags/assessment/</link>
+      <pubDate>Wed, 10 Jun 2020 15:58:12 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/assessment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPO</title>
+      <link>https://mprivdev.github.io/tags/gpo/</link>
+      <pubDate>Wed, 10 Jun 2020 15:58:12 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/gpo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privileged Account</title>
+      <link>https://mprivdev.github.io/tags/privileged-account/</link>
+      <pubDate>Wed, 10 Jun 2020 15:58:12 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/privileged-account/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://mprivdev.github.io/tags/security/</link>
+      <pubDate>Wed, 10 Jun 2020 15:58:12 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Password</title>
+      <link>https://mprivdev.github.io/tags/password/</link>
+      <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
+      <guid>https://mprivdev.github.io/tags/password/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

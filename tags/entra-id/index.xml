@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entra ID on Robin Granberg - Managed Privileges</title>
+    <link>https://mprivdev.github.io/tags/entra-id/</link>
+    <description>Recent content in Entra ID on Robin Granberg - Managed Privileges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Apr 2024 12:45:32 +0600</lastBuildDate>
+    <atom:link href="https://mprivdev.github.io/tags/entra-id/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breaching the sensitive action zone in Entra ID PIM</title>
+      <link>https://mprivdev.github.io/blog/breaching-the-sensitive-action-zone-in-entra-id-pim/</link>
+      <pubDate>Sat, 13 Apr 2024 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/blog/breaching-the-sensitive-action-zone-in-entra-id-pim/</guid>
+      <description>Entra ID PIM is a great security tool if used correctly.</description>
+    </item>
+  </channel>
+</rss>

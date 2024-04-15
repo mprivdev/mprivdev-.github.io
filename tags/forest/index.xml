@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forest on Robin Granberg - Managed Privileges</title>
+    <link>https://mprivdev.github.io/tags/forest/</link>
+    <description>Recent content in Forest on Robin Granberg - Managed Privileges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Oct 2022 12:45:32 +0600</lastBuildDate>
+    <atom:link href="https://mprivdev.github.io/tags/forest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Securing the forest boundary</title>
+      <link>https://mprivdev.github.io/blog/securing-the-forest-boundary/</link>
+      <pubDate>Sat, 01 Oct 2022 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/blog/securing-the-forest-boundary/</guid>
+      <description>In the article SID filter as security boundary between domains? (Part 7) - Trust account attack - from trusting to trusted , by Jonas Bülow Knudsen, Martin Sohn Christensen, Tobias Thorbjørn Munch Torp, they describe how the security boundary of the forest can be breached by an admin in the trusted forest and I will explain how you can mitigate this problem.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure AD on Robin Granberg - Managed Privileges</title>
+    <link>https://mprivdev.github.io/tags/azure-ad/</link>
+    <description>Recent content in Azure AD on Robin Granberg - Managed Privileges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Feb 2021 12:45:32 +0600</lastBuildDate>
+    <atom:link href="https://mprivdev.github.io/tags/azure-ad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exposing Azure AD Roles with privileged access groups</title>
+      <link>https://mprivdev.github.io/blog/azure-ad-group-nesting/</link>
+      <pubDate>Fri, 12 Feb 2021 12:45:32 +0600</pubDate>
+      <guid>https://mprivdev.github.io/blog/azure-ad-group-nesting/</guid>
+      <description>In this article I will dig into the possible ways of adding memberships in roles and groups in Azure AD and Azure resources.</description>
+    </item>
+  </channel>
+</rss>

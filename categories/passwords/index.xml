@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Passwords on Robin Granberg - Managed Privileges</title>
+    <link>https://mprivdev.github.io/categories/passwords/</link>
+    <description>Recent content in Passwords on Robin Granberg - Managed Privileges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Feb 2019 10:47:55 +0600</lastBuildDate>
+    <atom:link href="https://mprivdev.github.io/categories/passwords/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do You Allow Blank Passwords In Your Environment</title>
+      <link>https://mprivdev.github.io/blog/do-you-allow-blank-passwords-in-your-environment/</link>
+      <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
+      <guid>https://mprivdev.github.io/blog/do-you-allow-blank-passwords-in-your-environment/</guid>
+      <description>&lt;p&gt;This is a repost of my previous post at: &lt;a href=&#34;https://docs.microsoft.com/en-us/archive/blogs/pfesweplat/do-you-allow-blank-passwords-in-your-domain&#34;&gt;https://docs.microsoft.com/en-us/archive/blogs/pfesweplat/do-you-allow-blank-passwords-in-your-domain&lt;/a&gt;. My blog posts at Microsoft was temporarly deleted so just in case I re-post this one here.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
