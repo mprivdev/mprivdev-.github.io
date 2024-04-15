@@ -243,7 +243,7 @@ After that, I reached out to the Microsoft Security Response Center to inform th
 <p>This is the zone that could have exposure to non-members of <strong>Privileged Auth Admin</strong> and <strong>Global Admin</strong>.</p>
 <p>The reason is already mentioned in my previous blog post but I will further clarify the situation and explain how it can be abused.</p>
 <p>The introduction of role-assignable groups was a long-requested feature to simplify the management of role assignments.</p>
-<p>The following picture shows that a security group, if created as a role-assignable group (<strong>isRoleAssigngable=True</strong>), can be either eligible or active in a role and the group is protected in the sensitive actions - zone.</p>
+<p>The following picture shows that a security group, if created as a role-assignable group (<strong>isRoleAssignable=True</strong>), can be either eligible or active in a role and the group is protected in the sensitive actions - zone.</p>
 <p><a href="https://managedpriv.com/images/blog/sensitiveactionszone.png"><img class="img-fluid d-block mx-auto" src="../../images/blog/sensitiveactionszone.webp" onerror="this.src='..\/..\/images\/blog\/sensitiveactionszone.png'" alt="post thumb"></a></p>
 <p>While introducing the option of creating groups that can be assigned to a role, it was not supposed to be able to nest standard groups into role-assignable groups.</p>
 <p>It is not possible with one exception. A standard group can be eligible for a role-assignable group.</p>
